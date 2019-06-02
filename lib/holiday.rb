@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |key, value|
     my_str << key.to_s.capitalize + ":\n  "
     value.each do |key, value|
-      key.to_s.split("_")
+      key.to_s.split("")
       binding.pry
     end
   end
