@@ -53,7 +53,6 @@ def all_winter_holiday_supplies(holiday_hash)
     if key == :winter
       puts "Hello!"
       binding.pry
-
     end
   end
 
