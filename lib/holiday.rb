@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts key.to_s.capitalize + ":"
     value.keys.each do |i|
      puts i
-    binding.pry
+      binding.pry
     end
   end
   
