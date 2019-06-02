@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
       if key == :new_years
         key.to_s.split("_")
       end
-      puts "#{key.to_s.split("_").each {|i|i.capitalize!} * " "}: Lights, Wreath"
+      
       binding.pry
     end
   end
