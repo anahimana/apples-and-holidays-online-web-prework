@@ -73,6 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday.to_s.capitalize
       if holiday == "new_years"
         binding.pry
+      end
     end
   end
   string
