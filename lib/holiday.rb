@@ -83,7 +83,7 @@ def all_holidays_with_bbq(holiday_hash)
       if value.include?("BBQ")
         my_arr << key
       end
-      binding.pry
+      # binding.pry
     end
   end
   my_arr
