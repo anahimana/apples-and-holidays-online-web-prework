@@ -68,8 +68,8 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   my_str = ""
   holiday_hash.each do |key, value|
-    key
-    value
+    puts key
+    puts value
   end
   binding.pry
 end
