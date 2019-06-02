@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, items|
       holiday.to_s.split("_").each do |h_s|
         h_s.capitalize
-      binding.pry
+        binding.pry
       if holiday == :new_years
       end
     end
