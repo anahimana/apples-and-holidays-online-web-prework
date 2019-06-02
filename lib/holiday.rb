@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
   my_str = ""
-  
+  holiday_hash.each do |season|
   binding.pry
 end
 
