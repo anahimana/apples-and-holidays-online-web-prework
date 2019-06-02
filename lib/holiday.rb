@@ -70,12 +70,11 @@ def all_supplies_in_holidays(holiday_hash)
     puts key.to_s.capitalize! + ":"
     value.each do |key, value|
       key.to_s.capitalize!
-        binding.pry
       if key == :new_years
         key.to_s.split("_")
-        puts "  #{key.to_s.split("_").each {|i|i.capitalize!} * " "}: Lights, Wreath"
-        binding.pry
       end
+      puts "  Christmas: Lights, Wreath"
+      binding.pry
     end
   end
 end
