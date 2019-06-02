@@ -66,6 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+  my_str = ""
   seasons = holiday_hash.keys.collect {|i|i.to_s.capitalize }
   binding.pry
 end
