@@ -70,6 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts key.to_s.capitalize! + ":"
     value.each do |key, value|
       puts "  #{key.to_s.split("_").each {|i|i.capitalize!} * " "}: Lights, Wreath"
+      binding.pry
     end
   end
 end
