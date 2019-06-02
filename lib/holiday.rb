@@ -69,6 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
   my_str = ""
   holiday_hash.each do |key, value|
     key
+    value
   end
   binding.pry
 end
