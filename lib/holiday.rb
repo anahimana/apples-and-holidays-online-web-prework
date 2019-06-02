@@ -72,7 +72,6 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, items|
       holiday.to_s
       binding.pry
-
     end
   end
   end
