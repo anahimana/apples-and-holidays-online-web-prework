@@ -68,12 +68,6 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   my_str = ""
   holiday_hash.each do |key, value|
-    my_str << key.to_s.capitalize + ":\n"
-    value.each do |key, value|
-      key.to_s.split("_").each {|i|i.capitalize!}
-      binding.pry
-    end
-  end
 end
 
 def all_holidays_with_bbq(holiday_hash)
