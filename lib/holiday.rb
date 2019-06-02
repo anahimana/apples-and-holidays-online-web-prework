@@ -73,8 +73,6 @@ def all_supplies_in_holidays(holiday_hash)
       if key == :new_years
         key.to_s.split("_")
       end
-      puts "  Christmas: Lights, Wreath"
-      binding.pry
     end
   end
 end
